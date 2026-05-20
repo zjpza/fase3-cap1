@@ -22,10 +22,10 @@ Este dashboard foi desenvolvido como parte do projeto **"Ir Além"** da FIAP, co
 | Tecnologia | Finalidade |
 |---|---|
 | Python 3.10+ | Linguagem principal |
-| Streamlit | Framework para o dashboard web |
-| Plotly | Gráficos interativos |
-| Pandas | Manipulação de dados |
-| NumPy | Cálculos e linhas de tendência |
+| Streamlit 1.30+ | Framework para o dashboard web |
+| Plotly 5.18+ | Gráficos interativos |
+| Pandas 2.1+ | Manipulação de dados |
+| NumPy | Geração de dados simulados |
 
 ---
 
