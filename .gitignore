@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ambiente virtual
+venv/
+ENV/
+env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dados (não versionar arquivos grandes)
+*.xlsx
+*.csv
+*.db
+
+# Streamlit
+.streamlit/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Assets gerados localmente
+assets/*.png
+assets/*.jpg
+assets/*.mp4
