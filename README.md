@@ -48,8 +48,8 @@ O sistema permite:
 #### 1. Clone ou baixe o repositório
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
-cd ir-alem-dashboard
+git clone https://github.com/zjpza/fase3-cap1
+cd fase3-cap1
 ```
 
 Ou baixe o `.zip`, extraia e entre na pasta do projeto.
