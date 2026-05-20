@@ -10,9 +10,9 @@ import os
 
 def carregar_dados_agricolas():
     """Carrega DataFrame com dados reais do agronegócio brasileiro 2023/24."""
-    # Caminho relativo ao diretório do script
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    caminho_excel = os.path.join(base_dir, "agronegocio_brasil_2023_24.xlsx")
+    # Caminho relativo à raiz do projeto (subindo um nível de src/)
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    caminho_excel = os.path.join(base_dir, "data", "agronegocio_brasil_2023_24.xlsx")
 
     # Ler pulando a primeira linha (título geral) e usando a segunda como header
     df = pd.read_excel(caminho_excel, header=1)
